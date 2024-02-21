@@ -35,15 +35,6 @@ function handleSubmit(e){
          .catch((error)=> console.log(error));
     }
     
-
-function deleteCar(){
-
-        axios.delete(`${API}/cars/${id}`)
-             .then(() => { navigate("/cars");})
-             .catch((error) => console.log(error));
-            };
-
-    
     return(
         <article >
         <form className="car-form" onSubmit={handleSubmit}>

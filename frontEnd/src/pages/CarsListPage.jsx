@@ -7,6 +7,7 @@ const API ="http://localhost:5000";
 
 function CarsListPage(){
     const [cars, setCars] = useState([]);
+    const [favorite, setFavorite] = useState(false);
 
     useEffect(()=>{
         axios.get(`${API}/cars`)
@@ -14,6 +15,11 @@ function CarsListPage(){
         .catch((error)=> console.log(error));
     }, [])
 
+/////////////////////////////////////////////////////////////////////
+// Add favorite
+
+
+////////////////////////////////////////////////////////////////////
     return(
     <div>
       {cars && cars.map((car)=>{
@@ -27,7 +33,13 @@ function CarsListPage(){
                 <article className="car-data">
                   <h3>{car.year} {car.brand} {car.model}</h3>
                   <p><b>KM: </b> {car.km}</p>
-                  <Link to="/bids"><button>Place bid</button></Link>
+                  <Link to="/bids">
+                    <button>Place bid</button>
+                  </Link>
+{/* link below not working only redirects*/}
+                  <Link to="/favorites">
+                    <button>Add to Favorites</button>
+                  </Link>
                 </article>
           </article>
           </Link>

@@ -15,6 +15,7 @@ import CarsListPage from './pages/CarsListPage';
 import EditCarPage from './pages/EditCarPage';
 import BidsPage from './pages/BidsPage';
 import FavoritesPage from './pages/FavoritesPage';
+import SearchPage from './pages/SearchPage';
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
       <Navbar/>
         <Routes>
           <Route path="/" element={<HomePage />} />;
+          <Route path="/search" element={<SearchPage />} />;
           <Route path="/about" element={<AboutPage/>} />
           <Route path="/cars" element={<CarsListPage/>} />
           <Route path="/cars/:id" element={<CarDetailsPage/>} />

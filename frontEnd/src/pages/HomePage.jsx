@@ -2,7 +2,7 @@ function HomePage(){
 
     return(
         <article className="homepage">
-        <h1>Site under construction</h1>
+        <h1>Page under construction</h1>
         <p>Home page</p>
         </article>
     )

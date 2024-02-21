@@ -35,7 +35,13 @@ return(
                   <h3>{car.year} {car.brand} {car.model}</h3>
                   <p><b>KM: </b> {car.km}</p>
                   <p><b>Seller: </b> {car.user}</p>
-                  <Link to="/bids"><button>Place bid</button></Link>
+                  <Link to="/bids">
+                    <button>Place bid</button>
+                  </Link>
+{/* link below not working only redirects*/}
+                  <Link to="/favorites">
+                    <button style={{ display: car.user !== "private" ? 'none' : 'inline-block' }}>Add to Favorites</button>
+                  </Link>
                   <button onClick={deleteCar} style={{ display: car.user === "private" ? 'none' : 'inline-block' }}>Remove Car</button>
                 </article>
         

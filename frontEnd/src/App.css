@@ -55,6 +55,12 @@ a{
   flex-direction: column;
   align-items: center;
 }
+
+.search-page{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 /*/////////////////////////////////////////////////////////////////////////////*/
 
 .car-container{
@@ -70,7 +76,7 @@ a{
   display: flex;
   justify-content: center;
   width: 200px;
-  height: 150px;
+  height: 200px;
 }
 
 .car-data{
