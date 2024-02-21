@@ -35,7 +35,8 @@ function handleSubmit(e){
         brand,
         model,
         color,
-        km
+        km,
+        favorite
     };
 
     axios.put(`${API}/cars/${id}`, data)
