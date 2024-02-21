@@ -1,0 +1,134 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "year": 1965,
+      "brand": "Ford",
+      "model": "Mustang",
+      "imgUrl": "https://example.com/ford-mustang-1965.jpg",
+      "km": 120000,
+      "user": "private",
+      "favorite": false
+    },
+    {
+      "id": 2,
+      "year": 1966,
+      "brand": "Chevrolet",
+      "model": "Camaro",
+      "imgUrl": "https://example.com/chevrolet-camaro-1966.jpg",
+      "km": 150000,
+      "user": "private",
+      "favorite": false
+    },
+    {
+      "id": 3,
+      "year": 1967,
+      "brand": "Pontiac",
+      "model": "GTO",
+      "imgUrl": "https://example.com/pontiac-gto-1967.jpg",
+      "km": 110000,
+      "user": "private",
+      "favorite": false
+    },
+    {
+      "id": 4,
+      "year": 1968,
+      "brand": "Dodge",
+      "model": "Charger",
+      "imgUrl": "https://example.com/dodge-charger-1968.jpg",
+      "km": 130000,
+      "user": "private",
+      "favorite": false
+    },
+    {
+      "id": 5,
+      "year": 1969,
+      "brand": "Plymouth",
+      "model": "Road Runner",
+      "imgUrl": "https://example.com/plymouth-road-runner-1969.jpg",
+      "km": 170000,
+      "user": "private",
+      "favorite": false
+    },
+    {
+      "id": 6,
+      "year": 1970,
+      "brand": "Chevrolet",
+      "model": "Chevelle",
+      "imgUrl": "https://example.com/chevrolet-chevelle-1970.jpg",
+      "km": 140000,
+      "user": "private",
+      "favorite": false
+    },
+    {
+      "id": 7,
+      "year": 1971,
+      "brand": "Ford",
+      "model": "Torino",
+      "imgUrl": "https://example.com/ford-torino-1971.jpg",
+      "km": 160000,
+      "user": "private",
+      "favorite": false
+    },
+    {
+      "id": 8,
+      "year": 1972,
+      "brand": "Oldsmobile",
+      "model": "Cutlass",
+      "imgUrl": "https://example.com/oldsmobile-cutlass-1972.jpg",
+      "km": 125000,
+      "user": "private",
+      "favorite": false
+    },
+    {
+      "id": 9,
+      "year": 1973,
+      "brand": "Plymouth",
+      "model": "Barracuda",
+      "imgUrl": "https://example.com/plymouth-barracuda-1973.jpg",
+      "km": 155000,
+      "user": "private",
+      "favorite": false
+    },
+    {
+      "id": 10,
+      "year": 1974,
+      "brand": "Chevrolet",
+      "model": "Impala",
+      "imgUrl": "https://example.com/chevrolet-impala-1974.jpg",
+      "km": 145000,
+      "user": "private",
+      "favorite": false
+    },
+    {
+      "id": 11,
+      "year": 1975,
+      "brand": "Ford",
+      "model": "Gran Torino",
+      "imgUrl": "https://example.com/ford-gran-torino-1975.jpg",
+      "km": 165000,
+      "user": "private",
+      "favorite": false
+    },
+    {
+      "id": 12,
+      "year": 1976,
+      "brand": "Dodge",
+      "model": "Dart",
+      "imgUrl": "https://example.com/dodge-dart-1976.jpg",
+      "km": 135000,
+      "user": "private",
+      "favorite": false
+    },
+    {
+      "year": "1965",
+      "brand": "ford",
+      "model": "anglia",
+      "imageUrl": "image text url",
+      "km": "50000",
+      "user": "jenkins",
+      "favorite": false,
+      "id": 13
+    }
+  ]
+}
